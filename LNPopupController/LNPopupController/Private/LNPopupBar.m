@@ -259,15 +259,15 @@ static inline __attribute__((always_inline)) LNPopupBarProgressViewStyle _LNPopu
 		_inheritsAppearanceFromDockingView = YES;
 		_standardAppearance = [LNPopupBarAppearance new];
 		
-		_backgroundView = [[_LNPopupBarBackgroundView alloc] initWithEffect:nil];
-		_backgroundView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-		_backgroundView.userInteractionEnabled = NO;
-		[self addSubview:_backgroundView];
-		
-		_floatingBackgroundShadowView = [_LNPopupBackgroundShadowView new];
-		_floatingBackgroundShadowView.userInteractionEnabled = NO;
-		_floatingBackgroundShadowView.alpha = 0.0;
-		[self addSubview:_floatingBackgroundShadowView];
+//		_backgroundView = [[_LNPopupBarBackgroundView alloc] initWithEffect:nil];
+//		_backgroundView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+//		_backgroundView.userInteractionEnabled = NO;
+//		[self addSubview:_backgroundView];
+//		
+//		_floatingBackgroundShadowView = [_LNPopupBackgroundShadowView new];
+//		_floatingBackgroundShadowView.userInteractionEnabled = NO;
+//		_floatingBackgroundShadowView.alpha = 0.0;
+//		[self addSubview:_floatingBackgroundShadowView];
 		
 		_contentView = [[_LNPopupBarContentView alloc] initWithEffect:nil];
 		_contentView.clipsToBounds = YES;
